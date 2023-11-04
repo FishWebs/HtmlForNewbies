@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="x-icon" href="Untitled(1).jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html tutorial</title>
+    <style>
+        table, th, td {
+          border: 1px solid rgb(0, 0, 0);
+        }
+
+        details > summary {
+           padding: 4px;
+           width: 200px;
+           background-color: #acc9ff;
+           border: none;
+           box-shadow: 1px 1px 2px #acc9ff;
+           cursor: pointer;
+        }
+
+        details > p {
+           background-color: #acc9ff;
+           padding: 4px;
+           margin: 0;
+           box-shadow: 1px 1px 2px #acc9ff;
+        }
+        </style>
+        </head>
+</head>
+<body style="background-color:rgb(176, 224, 230);">
+    <h1>Html for beginners</h1>
+    <hr>
+    <br>
+    <h1>Contents:</h1>
+    <a href="#Ch.1_intro">Ch.1 Intro</a> <!--Contents-->
+    <br>
+    <a href="#Ch.2_Buttons">Ch.2 Buttons</a>
+    <br>
+    <a href="#Ch.3_Text">Ch.3 text</a>
+    <br>
+    <a href="#Ch.4_Links">Ch.4 Links</a>
+    <br>
+    <a href="#Ch.5_Audio">Ch.5 Audio</a>
+    <br>
+    <a href="#Ch.6_style">Ch.6 style</a>
+    <br>
+    <a href="#Ch.7_Forms_and_data">Ch.7 Forms and data</a>
+    <br>
+    <a href="#Ch.8_Table">Ch.8 Table</a>
+    <br>
+    <a href="#Ch.9_Video">Ch.9 Video</a>
+    <br>
+    <a href="#Ch.10_Conclusion">Ch.Conclusion</a>
+  <hr>
+     <h1 id="Ch.1_intro"><ins>Ch.1 Introduction</ins></h1>
+    <P>Every HTML document must always start with: < !DOCTYPE > so the device can detect it is a website</P>
+    <p>Browser Compatibility:</p>
+    <table> <!--BC table-->
+        <tr>
+            <th>Google</th>
+            <th>Firefox</th>
+            <th>Bing</th>
+            <th>Opera GX</th>
+            <th>Safari</th>
+        </tr>
+        <tr>
+            <td>
+                Yes✅
+            </td>
+
+            <td>
+                Yes✅
+            </td>
+            
+            <td>
+                Yes✅
+            </td>
+
+            <td>
+                Yes✅
+            </td>
+
+            <td>
+                Yes✅
+            </td>
+            <br>
+            <p></p>
+        </tr>
+    </table>
+   <p>A Mandetory step of coding with HMTL are tags, tags are used to create HTML documents and render their properties.<br>
+    an example of HTML tags look like this: < Starting tag > TEXT < /Closing tag ></p>
+   <br>
+   <img src="HTMLPic.png" alt="(burger)" width="350" height="200">
+   <p>Recomended coding Apps to use(click on a Image):</p>
+      <h1>4.Notepad + +</h1>
+        <a href="https://notepad-plus-plus.org/downloads/" target="blank">
+      <img src="Notepad++_Logo.svg.png" alt="(BETTERNOTE)"  width="70" height="70">
+        </a>
+         
+        <br>
+        <h1>3.Pycharm</h1>
+        <a href="https://www.jetbrains.com/pycharm/" target="blank">
+      <img src="logo.png" alt="(burger)"  width="70" height="70">
+        </a>
+
+        <br>
+        <h1>2.Visual studio</h1>
+        <a href="https://visualstudio.microsoft.com/" target="blank">
+      <img src="worseVscode.png" alt="(LVSC)"  width="70" height="70">
+        </a>
+
+        <br>
+        <h1>1.Visual studio</h1>
+        <a href="https://visualstudio.microsoft.com/" target="blank">
+      <img src="vsCode.png" alt="(WVSC)"  width="70" height="70">
+        </a>
+    <P>Comments, comments are shown inside the code but not the actual prject, a comment looks like this: < !-- Ch1 closing-- ></P>    
+    <br>
+    <p>if you want to put a picture or a CSS/JS file in your project, you have to put it in a folder that also has the HTMl document with it</p>
+    <hr> 
+     <h1 id="Ch.2_Buttons"><ins>Ch.2 Buttons</ins></h1> <!-- Ch1 closing-->
+    <h2>Example:</h2>
+    <p>To make a basic button you will need to follow these steps:</p>
+    <p>1. < button </p>
+    <p>2. < button type ></p>
+    <p>3. < button type="" ></p>
+    <p>4. < button type="button" ></p>
+    <p>4. < button type="button" >YOUR TEXT</p>
+    <p>4. < button type="button" >YOUR TEXT< /button></p>
+    <p>if steps put all together, you will be able to make a button!</p>
+    <button type="button" >EXAMPLE BUTTON</button>
+    <br>
+    <p>to make a button that takes tyou to a different page/website follow these steps:</p>
+    <p>1.< button> TEXT < / button> </p>
+    <p>2.< a > < button> TEXT < / button> < / a></p>
+    <p>3.< a href=""> < button> TEXT < / button> < / a></p>
+    <p>4.< a href="YOUR LINK"> < button> TEXT < / button> < / a></p>
+    <p>if steps put all together, you will be able to make a button with a link!</p>
+    <a href="https://www.google.com/search?q=moneky&sca_esv=558346543&rlz=1C1GCEB_enAU1020AU1020&sxsrf=AB5stBgGjz22qfkd5R77utv8PPmwqHVptg%3A1692430947173&ei=Y3LgZL2SCozQ2roPtbu7kAs&ved=0ahUKEwj9z6bLnOiAAxUMqFYBHbXdDrIQ4dUDCA8&uact=5&oq=moneky&gs_lp=Egxnd3Mtd2l6LXNlcnAiBm1vbmVreTIHECMYsQIYJzIKEAAYigUYsQMYQzIKEAAYigUYsQMYQzIHEC4YigUYQzIHEAAYigUYQzIHEAAYigUYQzINEAAYgAQYsQMYgwEYCjIKEC4YgAQYsQMYCjINEC4YgAQYsQMYgwEYCjILEC4YigUYsQMYgwFIwyNQpRBYmSJwAngBkAEAmAHwAaABxgiqAQUwLjQuMrgBA8gBAPgBAagCFMICChAAGEcY1gQYsAPCAgoQABiKBRiwAxhDwgIHECMY6gIYJ8ICEBAAGIoFGOoCGLQCGEPYAQHCAgcQIxiKBRgnwgIIEAAYgAQYsQPCAgsQABiABBixAxiDAcICCxAuGIAEGMcBGNEDwgILEC4YgAQYsQMYgwHCAgUQABiABMICDRAuGIoFGMcBGNEDGEPCAgoQABiABBgUGIcCwgINEC4YigUYxwEYrwEYQ8ICEBAuGIoFGMcBGK8BGJgFGEPCAgoQLhiKBRixAxhDwgIKEAAYigUYyQMYQ8ICCBAAGIoFGJIDwgINEAAYigUYsQMYgwEYQ8ICERAuGIAEGLEDGIMBGMcBGK8BwgIREC4YigUYsQMYgwEYxwEY0QPiAwQYACBBiAYBkAYKugYGCAEQARgB&sclient=gws-wiz-serp"><button>LINK BUTTON</button> </a>
+    <br>
+    <hr>
+    <h1 id="Ch.3_Text"><ins>Ch.3 Text</ins></h1> <!-- Ch2 closing-->
+
+    <p>This chapter will show all of the different fonts and text. </p>
+    <h1>Headings:</h1>
+    <h1>1. heading 1 < h1 > text < / h1></h1>
+    <h2>2. heading 2 < h2 > text < / h2></h2>
+    <h3>3. heading 3 < h3 > text < / h3></h3>
+    <h4>4. heading 4 < h4 > text < / h4></h4>
+    <h5>5. heading 5 < h5> text < / h5></h5>
+    <h6>6. heading 6 < h6> text < / h6></h6>
+    <br>
+    <p>Paragragh text < p > < / p></p>
+    <h1>types:</h1>
+    <p><b>1. This text is bold</b></p> <!--styles-->
+    <p><i>2. This text is italic</i></p>
+    <p>3. This is<sub> subscript</sub> and <sup>superscript</sup></p>
+    <p><em>4. this text is emphasized</em></p>
+    <p>5.this text is <mark>marked.</mark></p>
+    <p>6. text is <del>crossed</del> out.</p>
+    <p><ins>7. this text  is underlined.</ins></p>
+    <details>
+      <summary>8.</summary>
+      <p>This is a summarised text</p>
+    </details>
+    <pre>
+      9.this is         a pre text/element it preserves
+      both      spaces and
+      line breaks
+    </pre>
+    <p>10.this is a <cite>cite</cite> text</p>
+    <hr>
+    <h1 id="Ch.4_Links"><ins>Ch.4 Links</ins></h1> <!-- Ch3 closing-->
+     <p>The weird thing about Links in HMTL,that there tag is called: < a > instead of < link > <br></p>
+    <table> <!--GA and EA table-->
+      <tr>
+          <th>Global Attributes</th>
+          <th>Event Attributes</th>
+      </tr>
+      <tr>
+          <td>
+            Yes✅
+          </td>
+
+          <td>
+            Yes✅
+          </td>
+           </tr>
+    </table>
+           <h2>Tips and Notes:</h2> <!--T&N-->
+           <p><b>Tip:</b> If the < a > tag has no href attribute, it is only a placeholder for a hyperlink.
+           <br>
+           <b>Tip:</b> A linked page is normally displayed in the current browser window, unless you specify another target.
+           <br>
+           <b>Tip:</b> Use CSS to style links: CSS Links and CSS Buttons.
+           <br>
+           <p>normally, links will show as follows in all search browsers:</p>
+           <ul>
+            <li>
+              An unvisited link is underlined in blue
+            </li>
+            <li>
+              A visited link is underlined in Purple
+            </li>
+            <li>
+              An active link is underlined in red
+            </li>
+           </ul>
+           </li>
+          </table>
+           <h2><ins>Usages:</ins></h2>
+           <p>HTML links, also known as hyperlinks, are elements that allow you to connect one web page to another. They are a fundamental part of the web and enable users to navigate between different pages and resources. Here's some important information about HTML links:</p>
+           
+           <h3>Anchor Tags</h3>
+           <p>Links in HTML are created using the < code>& lt;a& gt;< / code> (anchor) element. The < code> & lt;a & gt;< /code> element requires an < code>href< / code> attribute, which specifies the URL of the target page or resource.</p>
+           
+           <h3>Text Links vs. Image Links</h3>
+           <p>You can create text links using anchor tags, where the linked text is placed between the opening and closing < code>& lt;a & gt;< / code> tags. Image links are also possible by placing an < code> & lt;img& gt;< / code> element within an anchor tag.</p>
+           
+           <h3>Linking to External Resources</h3>
+           <p>Links can point to external resources, such as other websites or files hosted on different servers. To link to an external resource, provide the full URL in the < code>href< / code> attribute.</p>
+           
+           <h3>Relative URLs</h3>
+           <p>Relative URLs are used to link to resources within the same website. They are specified relative to the current page's URL. For example, if you have a page in a subdirectory, you can link to it using a relative URL.</p>
+           
+           <h3>Linking to Sections within a Page</h3>
+           <p>You can create links that navigate to specific sections within the same page using < code>id< / code> attributes and the < code>#< / code> symbol in the < code>href< / code> attribute. This is often used for creating table of contents or one-page navigation.</p>
+           
+           <h3>Linking to Email Addresses</h3>
+           <p>Links can also be used to create email links. When the user clicks on the link, their default email client opens with a pre-filled email address. This is done using the < code >mailto:< / code> scheme in the < code>href< / code> attribute.</p>
+           
+           <h3>Link Styling</h3>
+           <p>Links can be styled using CSS to change their appearance when hovered over, clicked, or visited. Common styling includes changing text color, underlines, and cursor types.</p>
+           
+           <h3>Link Accessibility</h3>
+           <p>It's important to ensure that links are accessible. Using descriptive link text and providing alternative text for linked images helps users understand the purpose of the link, especially for those using screen readers.</p>
+           
+           <h3>Link Target Attribute</h3>
+           <p>The <code>target</code> attribute determines how the linked content will be displayed. For example, you can open links in a new tab using < code>target="_blank"</ code>.</p>
+           
+           <h3>Link Best Practices</h3>
+           <p>When designing your website, consider the placement and context of your links. Use clear and concise link text, and avoid overloading a page with too many links.</p>
+           
+           <h3>Conclusion</h3>
+           <p>HTML links are an essential part of the web, enabling seamless navigation between pages and resources. By understanding how to create and use links effectively, you can enhance the user experience on your website.</p>
+          <hr>
+          <h1 id="Ch.5_Audio"><ins>Ch.5 Audio</ins></h1> <!-- Ch4 closing-->
+          <p>Script to make a sound file:</p>
+          < audio controls>
+          <br>  < source src="Your sound" type="audio/mpeg">
+          <br>< / audio>
+          <br> 
+          <audio controls>
+            <source src="Coin.mp3" type="audio/mpeg">
+          </audio>
+          <br>
+          <h2>Browser support:</h2>
+              <table>
+                <tr>
+                <th>Browser</th>
+                <th>MP3</th>
+                <th>WAV</th>
+                <th>OGG</th>
+                </tr>
+                <tr>
+                  <td>Chrome</td>
+                  <td>Yes✅</td>
+                  <td>Yes✅</td>
+                  <td>Yes✅</td>
+                </tr>
+                <tr>
+                  <td>Edge</td>
+                  <td>Yes✅</td>
+                  <td>Yes✅</td>
+                  <td>Yes✅</td>
+                </tr>
+                <tr>
+                  <td>Safari</td>
+                  <td>Yes✅</td>
+                  <td>Yes✅</td>
+                  <td>No❌</td>
+                </tr>
+                <tr>
+                  <td>Firefox</td>
+                  <td>Yes✅</td>
+                  <td>Yes✅</td>
+                  <td>Yes✅</td>
+                </tr>
+                <tr>
+                  <td>Opera</td>
+                  <td>Yes✅</td>
+                  <td>Yes✅</td>
+                  <td>Yes✅</td>
+                </tr>
+              </table>
+              <hr>
+              <h1 id="Ch.6_style"><ins>Ch.6 Style</ins></h1> <!-- Ch5 closing-->
+              <p>Style sheets are <strong>not</strong> ment to be put in the body tags, instead they're put in the head tags</p>
+              <P><ins>example:</ins></P>
+              <P>
+                < style>
+                 <br> h1 {color:red;}
+                 <br> p {color:blue;}
+                <br>< / style>
+              </P>
+              <p>Browser support</p>
+              <table>
+                <tr>
+                    <th>Google</th>
+                    <th>Firefox</th>
+                    <th>Bing</th>
+                    <th>Opera GX</th>
+                    <th>Safari</th>
+                </tr>
+                <tr>
+                    <td>
+                        Yes✅
+                    </td>
+        
+                    <td>
+                        Yes✅
+                    </td>
+                    
+                    <td>
+                        Yes✅
+                    </td>
+        
+                    <td>
+                        Yes✅
+                    </td>
+        
+                    <td>
+                        Yes✅
+                    </td>
+                    <br>
+                    <p></p>
+                </tr>
+            </table>
+            <hr>
+            <h1 id="Ch.7_Forms_and_data"><ins>Ch.7 Forms and data</ins></h1> <!-- Ch6 closing-->
+            <p>labels:</p>
+
+            <form action="/action_page.php"> <!--Form-->
+           <input type="radio" id="html" name="fav_language" value="HTML">
+           <label for="html">HTML</label><br>
+           <input type="radio" id="css" name="fav_language" value="CSS">
+             <label for="css">CSS</label><br>
+             <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+             <label for="javascript">JavaScript</label><br><br>
+            <input type="submit" value="Submit">
+                   </form>
+          <br>
+          <p>Meter:</p> <!--Meter thing-->
+          <label for="disk_c">Test1:</label>
+          <meter id="disk_c" value="11" min="0" max="10">2 out of 10</meter><br>
+          <label for="disk_d">Test2:</label>
+          <meter id="disk_d" value="4">4%</meter>
+          <p>Progress element:</p>
+          <label for="file">progress:</label>
+          <progress id="file" value="32" max="100"> 32% </progress>
+          <hr>
+          <h1 id="Ch.8_Table"><ins>Ch.8 Table</ins></h1> <!-- Ch7 closing-->
+          A Simple example of a table looks like this:
+          <br>
+          <br>
+          < table > <br>
+          < tr> 
+          <br>
+            < th>Day< / th><br>
+            < th>Numbers< / th><br>
+          < / tr><br>
+          < tr><br>
+            < td>monday< / td><br>
+            < td>23< / td><br>
+          < / tr><br>
+          < / table>
+          <br>
+          And that code translates to: 
+          <table>
+            <tr>
+              <th>Day</th>
+              <th>Numbers</th>
+            </tr>
+            <tr>
+              <td>monday</td>
+              <td>23</td>
+            </tr>
+          </table>
+          <br>
+          <p>The HTML table element tag looks like this < table > and < / table > it also consists of more tags like this: 
+          < tr>, < th> and < td>.<br> tr means the table row, th means a table header and td means a table cell.<br>A table sometimes may include a
+        < caption >, < colgroup>, < thead>, < tfoot> and < tobdy> tags.</p>
+        <p>Browser support</p>
+        <table>
+          <tr>
+              <th>Google</th>
+              <th>Firefox</th>
+              <th>Bing</th>
+              <th>Opera GX</th>
+              <th>Safari</th>
+          </tr>
+          <tr>
+              <td>
+                  Yes✅
+              </td>
+  
+              <td>
+                  Yes✅
+              </td>
+              
+              <td>
+                  Yes✅
+              </td>
+  
+              <td>
+                  Yes✅
+              </td>
+  
+              <td>
+                  Yes✅
+              </td>
+              <br>
+              <p></p>
+          </tr>
+      </table>
+      <hr>
+      <h1 id="Ch.9_Video"><ins>Ch.9 Video</ins></h1> <!-- Ch8 closing-->
+      <p>The video element looks like this:</p>
+      <br>
+      < video width="320" height="240" controls>
+      <br>
+        < source src="VIDEO_HERE.mp4" type="video/mp4">
+        <br>
+        < source src="VIDEO_HERE.ogg" type="video/ogg">
+        <br>
+      < /video>
+      <br>
+      <p>and that code translates to:</p>
+      <video width="320" height="240" controls>
+        <source src="Bears.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>(credits to w3schools for the video)</p>
+      <br>
+      <p>Browser support</p>
+      <table>
+        <tr>
+            <th>Google</th>
+            <th>Firefox</th>
+            <th>Bing</th>
+            <th>Opera GX</th>
+            <th>Safari</th>
+        </tr>
+        <tr>
+            <td>
+                Yes✅
+            </td>
+
+            <td>
+                Yes✅
+            </td>
+            
+            <td>
+                Yes✅
+            </td>
+
+            <td>
+                Yes✅
+            </td>
+
+            <td>
+                Yes✅
+            </td>
+            <br>
+            <p></p>
+        </tr>
+    </table>
+    <br>
+    <p>Global and Event Attributes</p>
+    <table> <!--GA and EA table-->
+      <tr>
+          <th>Global Attributes</th>
+          <th>Event Attributes</th>
+      </tr>
+      <tr>
+          <td>
+            Yes✅
+          </td>
+
+          <td>
+            Yes✅
+          </td>
+           </tr>
+    </table>
+    <br>
+    <p>Type</p>
+    <table>
+      <tr>
+      <th>Browser</th>
+      <th>MP3</th>
+      <th>WAV</th>
+      <th>OGG</th>
+      </tr>
+      <tr>
+        <td>Chrome</td>
+        <td>Yes✅</td>
+        <td>Yes✅</td>
+        <td>Yes✅</td>
+      </tr>
+      <tr>
+        <td>Edge</td>
+        <td>Yes✅</td>
+        <td>Yes✅</td>
+        <td>Yes✅</td>
+      </tr>
+      <tr>
+        <td>Safari</td>
+        <td>Yes✅</td>
+        <td>Yes✅</td>
+        <td>No❌</td>
+      </tr>
+      <tr>
+        <td>Firefox</td>
+        <td>Yes✅</td>
+        <td>Yes✅</td>
+        <td>Yes✅</td>
+      </tr>
+      <tr>
+        <td>Opera</td>
+        <td>Yes✅</td>
+        <td>Yes✅</td>
+        <td>Yes✅</td>
+      </tr>
+    </table>
+    <hr>
+    <h1 id="Ch.10_Conclusion"><ins>Ch.10 Conclusion</ins></h1> <!-- Ch9 closing-->
+    <p>Thank you for reading my HMTL tutorial, this project started on saturday the 19th of august 2023, 3:43 PM<br>
+       also thanks to w3schools for a little bit of the code, and the amazing code program VS studio. </p>
+       <br>
+       <p> THE END.</p>
+</body>
+</html>
